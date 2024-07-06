@@ -1,0 +1,4 @@
+# Ignore test compile
+scss/test.css
+scss/test.css.map
+
