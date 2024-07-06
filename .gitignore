@@ -1,4 +1,5 @@
 # Ignore test compile
 scss/test.css
 scss/test.css.map
-
+gnome-shell/gnome-shell-old.css
+gnome-shell/gnome-shell.css.map

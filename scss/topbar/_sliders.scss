@@ -1,0 +1,11 @@
+.slider{
+	color: $offwhite;
+	-slider:{
+		height: .5em;
+		active-background-color: $blurple;
+	}
+	-barlevel:{
+		height: .5em;
+		active-background-color: $offwhite;
+	}
+}

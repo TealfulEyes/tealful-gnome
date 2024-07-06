@@ -4,8 +4,32 @@
 #panel{
 height: 1.6em;
 	background:{
-		color: $blurple;
-		bottom: 1px;
+		color: $blurple-transparent;
+		/*background-image: url('test.jpg');
+		repeat: no-repeat;
+		attachment: fixed;
+		position: left;*/
+	}
+	border:{
+		bottom: 2px;
 		color: $offwhite;
+	}
+}
+
+.panel-button{
+	&:hover,
+	&:overview,
+	&:active,
+	{
+		color: $offwhite;
+		background-color: $gold;
+	}
+	&:hover,
+	&:active,
+	{
+		.clock{
+		color: $offwhite;
+		background-color: $gold;
+	}
 	}
 }

@@ -1,7 +1,5 @@
 /**
- * Imports various files
- * 
- * Combines all theme scss into a single CSS file
+ * This Combines all theme scss into a single CSS file
  */
  
 @import 'general/_variables';
@@ -9,3 +7,12 @@
 @import 'general/_search';
 
 @import 'topbar/_panel';
+@import 'topbar/_clock';
+@import 'topbar/_events';
+@import 'topbar/_calendar';
+@import 'topbar/_popupmenus';
+@import 'topbar/_sliders';
+@import 'topbar/_quicktoggles';
+
+@import 'workspace/_dash';
+@import 'workspace/_workspace';

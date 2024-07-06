@@ -1,0 +1,19 @@
+/**
+ * CALENDAR
+*/
+.calendar-today{
+	font:{
+		weight: bold;
+	}
+	&:active,
+	&:selected{
+		background-color: $gold;
+    	color: #f8f8f2;
+    	&:hover,
+		&:focus{
+			background-color: $gold;
+    		color: #f8f8f2;
+	}
+	}
+
+}

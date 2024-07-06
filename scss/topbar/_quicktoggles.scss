@@ -1,0 +1,22 @@
+.quick-toggle{
+  color:$offwhite;
+  &:checked{
+    background-color: $gold;
+  }
+}
+.quick-toggle-menu{
+  background-color: $gold;
+  color: $offwhite;
+}
+
+.quick-slider,
+.icon-button{
+  &:active{
+  color: $offwhite;
+  background-color: $gold;
+}
+}
+
+.icon-button{
+  background-color: $gold;
+}
