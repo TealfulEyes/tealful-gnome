@@ -1,0 +1,155 @@
+stage {
+  font-family: JetBrains Mono, Arial;
+  font-size: 11pt;
+}
+/*POPUP MENUS SUCH AS RIGHT CLICK AND THE CONTAINERS FOR THE TOP BUTTON MENUS */
+.popup-menu-content {
+ color: #f0ead2;
+	background-color:rgba(51, 0, 128, 0.8);
+  border-radius: 10px;
+  border: 0px;
+ }
+ .popup-menu-item:hover{
+  background-color: #6b4cc3;
+  color: #ffeecc;
+}
+
+/* SEARCH */
+StEntry{
+  border-radius: 12px;
+  border: 2px solid #ffeecc;
+  background-color: red;
+  color: white;
+  font-weight: 700;
+}
+
+.search-section-content{
+  box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.03);
+  border-radius: 17px;
+}
+
+.list-search-result:focus, .search-provider-icon:focus,
+.list-search-result:hover, .search-provider-icon:hover,
+.list-search-result:selected, .search-provider-icon:selected{
+  box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.03);
+}
+.list-search-result:active, .search-provider-icon:active{
+  background-color:red;
+  color: #ffffff;
+}
+
+/* WORKSPACE NAVIGATION */
+.workspace-thumbnail{
+  background-color: purple;
+  border: none;
+  border-radius: 9px;
+  border: 1px solid rgba(255, 255, 255, 0.03);
+  background-size: cover;
+}
+.workspace-thumbnail-indicator {
+  border-color: #ffeecc;
+  border-width: 3px;
+  border-radius: 12px;
+}
+/*
+.workspace-background{
+  border: 6px solid red;
+} */
+#workspace{
+  border-radius: 50px;
+}
+.workspace-animation{ background-color: #e0def4; }
+.panel-button,
+.clock,
+.clock-display StIcon{
+color: #e0def4;
+  border-radius: 8px;
+  border: 3px solid transparent;
+  box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.03);
+}
+
+
+/* TOP BAR */
+#panel{
+	background-color:rgba(51, 0, 128, 0.8);
+	border-bottom: 2px;
+	border-color: #ffeecc;
+	height: 1.6em;
+  /*background-image: url('test.jpg'); */
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: left;
+}
+/*TOP BAR PANEL BUTTONS */
+.panel-button:hover,
+.panel-button:hover .clock{
+color: ghostwhite;
+  background-color: darkgoldenrod;
+}
+.panel-button:active,
+.panel-button:overview, 
+.panel-button:active .clock{
+  background-color: darkgoldenrod;
+  color: ghostwhite;
+}
+
+/* REMOVES THE EXCESS BACKGROUND FROM THE CLOCK */
+.clock-display{
+  background-color: transparent !important;
+  box-shadow: none !important;
+  border: none !important;
+}
+.clock{
+  margin: 0 !important;
+}
+/* CALENDER */
+/*TOGGLE SWITCH IN THE CALENDER AREA */
+.toggle-switch{
+  background-image: url("./toggle10-on.svg");
+  background-color: mediumpurple;
+  border-radius: 10px;
+}
+.toggle-switch:checked{
+  background-image: url("./toggle10-off.svg");
+  background-color: darkgoldenrod;
+}
+
+/* EVENTS SECTION IN THE CALENDAR */
+.calendar{
+	color: #ffeecc;
+	border-radius: 10px;
+	background-color: #27243A;
+	box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.03) !important;
+}
+/*EVENTS WORLD CLOCK AND WEATHER SECTION UNDER THE CALENDAR */
+.events-button,
+.world-clocks-button,
+.weather-button{
+background-color: #27243A;
+color: #ffeecc;
+  border-radius: 11px;
+  box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.03);
+}
+.events-button:active,
+.world-clock-button:active,
+.weather-button:active{
+  background-color: #94E2D5;
+  color: #ffffff;
+}
+.controls-manager{
+  background-color: rgb(51, 0, 128);
+}
+
+#dash{
+  background-color: darkslategrey;
+  color: darkgoldenrod;
+}
+.dash-background{
+  background-color: mediumpurple;
+  border-radius: 15px;
+}
+
+.app-view-control{
+  background-color: red;
+  border-radius: 50px;
+}
