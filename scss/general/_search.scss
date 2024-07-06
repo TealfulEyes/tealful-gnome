@@ -1,0 +1,14 @@
+/**
+ * SEARCH BARS
+*/
+StEntry{
+	color: $offwhite;
+	border: 2px solid $offwhite;
+	background-color: $blurple-highlight;
+	border:{
+		radius: 12px;
+	}
+	font:{
+		weight: 700;
+	}
+}

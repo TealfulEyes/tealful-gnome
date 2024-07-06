@@ -1,0 +1,11 @@
+/**
+ * Imports various files
+ * 
+ * Combines all theme scss into a single CSS file
+ */
+ 
+@import 'general/_variables';
+@import 'general/_overall';
+@import 'general/_search';
+
+@import 'topbar/_panel';

@@ -105,12 +105,12 @@ color: ghostwhite;
 /* CALENDER */
 /*TOGGLE SWITCH IN THE CALENDER AREA */
 .toggle-switch{
-  background-image: url("./toggle10-on.svg");
+  background-image: url("toggle10-on.svg");
   background-color: mediumpurple;
   border-radius: 10px;
 }
 .toggle-switch:checked{
-  background-image: url("./toggle10-off.svg");
+  background-image: url("toggle10-off.svg");
   background-color: darkgoldenrod;
 }
 
