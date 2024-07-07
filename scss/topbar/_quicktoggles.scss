@@ -1,5 +1,9 @@
+/**
+ * QUICK TOGGLE OPTIONS
+*/
 .quick-toggle{
   color:$offwhite;
+  background-color: $shadow;
   &:checked{
     background-color: $gold;
   }

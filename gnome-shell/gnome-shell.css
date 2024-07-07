@@ -62,9 +62,37 @@ StEntry {
   background-color: #0E8064;
 }
 
+.events-button,
+.world-clocks-button,
+.weather-button {
+  background-color: #27243A;
+  color: #ffeecc;
+  border-radius: 12px;
+}
+.events-buttonactive,
+.world-clocks-buttonactive,
+.weather-buttonactive {
+  background-color: #0E8064;
+  color: #ffeecc;
+}
+
 /**
  * CALENDAR
 */
+.calendar-month-label {
+  background-color: #0E8064;
+  color: #ffeecc;
+}
+
+.pager-button {
+  border-radius: 12px;
+  background-color: #0E8064;
+}
+
+.calendar-week-number {
+  color: red;
+}
+
 .calendar-today {
   font-weight: bold;
 }
@@ -73,8 +101,17 @@ StEntry {
   color: #f8f8f2;
 }
 .calendar-today:active:hover, .calendar-today:active:focus, .calendar-today:selected:hover, .calendar-today:selected:focus {
-  background-color: #0E8064;
+  background-color: #6b4cc3;
   color: #f8f8f2;
+}
+
+.calendar-day {
+  background-color: #27243A;
+  color: #ffeecc;
+  border-radius: 12px;
+}
+.calendar-day:hover {
+  background-color: #6b4cc3;
 }
 
 .popup-menu-content {
@@ -97,8 +134,12 @@ StEntry {
   -barlevel-active-background-color: #ffeecc;
 }
 
+/**
+ * QUICK TOGGLE OPTIONS
+*/
 .quick-toggle {
   color: #ffeecc;
+  background-color: #27243A;
 }
 .quick-toggle:checked {
   background-color: #0E8064;
@@ -119,6 +160,21 @@ StEntry {
   background-color: #0E8064;
 }
 
+.message {
+  color: #ffeecc;
+  background-color: #27243A;
+}
+.message:hover {
+  background-color: #6b4cc3;
+}
+
+.message-list-clear-button.button {
+  background-color: #27243A;
+}
+.message-list-clear-button.button:hover, .message-list-clear-button.button:focus {
+  color: #ffeecc;
+}
+
 /**
  * APPLICATION DASH
  * 
@@ -133,6 +189,9 @@ StEntry {
   border-radius: 14px;
 }
 
+/**
+ * WORKSPACE NAVIGATION AREA WHEN YOU PRESS SUPERMOD
+*/
 .workspace-animation {
   background-color: #27243A;
 }

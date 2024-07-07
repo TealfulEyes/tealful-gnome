@@ -1,0 +1,14 @@
+.message{
+	color: $offwhite;
+	background-color: $shadow;
+	&:hover{
+		background-color: $blurple-highlight;
+	}
+}
+.message-list-clear-button.button{
+	background-color: $shadow;
+	&:hover,
+	&:focus{
+		color: $offwhite;
+	}
+}

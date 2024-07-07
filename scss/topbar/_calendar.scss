@@ -1,6 +1,19 @@
 /**
  * CALENDAR
 */
+.calendar-month-label{
+	background-color: $gold;
+	color: $offwhite;
+}
+
+.pager-button{
+	border-radius: 12px;
+	background-color: $gold;
+}
+
+.calendar-week-number {
+  color: red; 
+}
 .calendar-today{
 	font:{
 		weight: bold;
@@ -11,9 +24,18 @@
     	color: #f8f8f2;
     	&:hover,
 		&:focus{
-			background-color: $gold;
+			background-color: $blurple-highlight;
     		color: #f8f8f2;
-	}
+		}
 	}
 
+}
+
+.calendar-day{
+	background-color: $shadow;
+	color: $offwhite;
+	border-radius: 12px;
+	&:hover{
+		background-color: $blurple-highlight;
+	}
 }
