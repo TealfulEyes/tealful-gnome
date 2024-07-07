@@ -1,5 +1,8 @@
-# Ignore test compile
+# Ignore test compiles and maps
 scss/test.css
 scss/test.css.map
 gnome-shell/gnome-shell-old.css
 gnome-shell/gnome-shell.css.map
+
+#Ignoring font folder
+JetbrainsMono
