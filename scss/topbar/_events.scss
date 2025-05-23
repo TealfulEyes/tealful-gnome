@@ -1,11 +1,12 @@
+@use '../general/variables';
 .events-button,
 .world-clocks-button,
 .weather-button{
-	background-color: $shadow;
-	color: $offwhite;
+	background-color: variables.$shadow;
+	color: variables.$offwhite;
 	border-radius: 12px;
 	&active{
-		background-color: $gold;
-		color: $offwhite;
+		background-color: variables.$gold;
+		color: variables.$offwhite;
 	}
 }

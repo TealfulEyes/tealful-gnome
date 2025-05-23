@@ -1,11 +1,12 @@
+@use '../general/variables';
 .slider{
-	color: $offwhite;
+	color: variables.$offwhite;
 	-slider:{
 		height: .5em;
-		active-background-color: $blurple;
+		active-background-color: variables.$blurple;
 	}
 	-barlevel:{
 		height: .5em;
-		active-background-color: $offwhite;
+		active-background-color: variables.$offwhite;
 	}
 }

@@ -1,13 +1,14 @@
+@use '../general/variables';
 .popup-menu-content {
  color: #f0ead2;
-	background-color:$blurple-transparent;
+  background-color:variables.$blurple-transparent;
   border-radius: 10px;
   border: 0px;
  }
   .popup-menu-item{
     &:hover,
     &:selected{
-  background-color: $blurple-highlight;
-  color: $offwhite;
+  background-color: variables.$blurple-highlight;
+  color: variables.$offwhite;
     }
 }

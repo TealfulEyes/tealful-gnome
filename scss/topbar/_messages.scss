@@ -1,14 +1,15 @@
+@use '../general/variables';
 .message{
-	color: $offwhite;
-	background-color: $shadow;
+	color: variables.$offwhite;
+	background-color: variables.$shadow;
 	&:hover{
-		background-color: $blurple-highlight;
+		background-color: variables.$blurple-highlight;
 	}
 }
 .message-list-clear-button.button{
-	background-color: $shadow;
+	background-color: variables.$shadow;
 	&:hover,
 	&:focus{
-		color: $offwhite;
+		color: variables.$offwhite;
 	}
 }

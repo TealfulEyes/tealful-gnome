@@ -1,10 +1,11 @@
+@use 'variables';
 /**
  * SEARCH BARS
 */
 StEntry{
-	color: $offwhite;
-	border: 2px solid $offwhite;
-	background-color: $blurple-highlight;
+	color: variables.$offwhite;
+	border: 2px solid variables.$offwhite;
+	background-color: variables.$blurple-highlight;
 	border:{
 		radius: 12px;
 	}

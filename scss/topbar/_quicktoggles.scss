@@ -1,26 +1,27 @@
+@use '../general/variables';
 /**
  * QUICK TOGGLE OPTIONS
 */
 .quick-toggle{
-  color:$offwhite;
-  background-color: $shadow;
+  color:variables.$offwhite;
+  background-color: variables.$shadow;
   &:checked{
-    background-color: $gold;
+    background-color: variables.$gold;
   }
 }
 .quick-toggle-menu{
-  background-color: $gold;
-  color: $offwhite;
+  background-color: variables.$gold;
+  color: variables.$offwhite;
 }
 
 .quick-slider,
 .icon-button{
   &:active{
-  color: $offwhite;
-  background-color: $gold;
+  color: variables.$offwhite;
+  background-color: variables.$gold;
 }
 }
 
 .icon-button{
-  background-color: $gold;
+  background-color: variables.$gold;
 }

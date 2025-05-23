@@ -1,10 +1,11 @@
+@use '../general/variables';
 /**
  * TOP BAR PANEL
 */
 #panel{
 height: 1.6em;
 	background:{
-		color: $blurple-transparent;
+		color: variables.$blurple-transparent;
 		/*background-image: url('test.jpg');
 		repeat: no-repeat;
 		attachment: fixed;
@@ -12,7 +13,7 @@ height: 1.6em;
 	}
 	border:{
 		bottom: 2px;
-		color: $offwhite;
+		color: variables.$offwhite;
 	}
 }
 
@@ -21,15 +22,15 @@ height: 1.6em;
 	&:overview,
 	&:active,
 	{
-		color: $offwhite;
-		background-color: $gold;
+		color: variables.$offwhite;
+		background-color: variables.$gold;
 	}
 	&:hover,
 	&:active,
 	{
 		.clock{
-		color: $offwhite;
-		background-color: $gold;
+		color: variables.$offwhite;
+		background-color: variables.$gold;
 	}
 	}
 }

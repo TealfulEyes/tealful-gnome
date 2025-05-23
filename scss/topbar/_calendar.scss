@@ -1,14 +1,15 @@
+@use '../general/variables';
 /**
  * CALENDAR
 */
 .calendar-month-label{
-	background-color: $gold;
-	color: $offwhite;
+	background-color: variables.$gold;
+	color: variables.$offwhite;
 }
 
 .pager-button{
 	border-radius: 12px;
-	background-color: $gold;
+	background-color: variables.$gold;
 }
 
 .calendar-week-number {
@@ -20,11 +21,11 @@
 	}
 	&:active,
 	&:selected{
-		background-color: $gold;
+		background-color: variables.$gold;
     	color: #f8f8f2;
     	&:hover,
 		&:focus{
-			background-color: $blurple-highlight;
+			background-color: variables.$blurple-highlight;
     		color: #f8f8f2;
 		}
 	}
@@ -32,10 +33,10 @@
 }
 
 .calendar-day{
-	background-color: $shadow;
-	color: $offwhite;
+	background-color: variables.$shadow;
+	color: variables.$offwhite;
 	border-radius: 12px;
 	&:hover{
-		background-color: $blurple-highlight;
+		background-color: variables.$blurple-highlight;
 	}
 }

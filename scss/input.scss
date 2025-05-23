@@ -2,18 +2,18 @@
  * This Combines all theme scss into a single CSS file
  */
  
-@import 'general/_variables';
-@import 'general/_overall';
-@import 'general/_search';
+@use 'general/_variables';
+@use 'general/_overall';
+@use 'general/_search';
 
-@import 'topbar/_panel';
-@import 'topbar/_clock';
-@import 'topbar/_events';
-@import 'topbar/_calendar';
-@import 'topbar/_popupmenus';
-@import 'topbar/_sliders';
-@import 'topbar/_quicktoggles';
-@import 'topbar/_messages';
+@use 'topbar/_panel';
+@use 'topbar/_clock';
+@use 'topbar/_events';
+@use 'topbar/_calendar';
+@use 'topbar/_popupmenus';
+@use 'topbar/_sliders';
+@use 'topbar/_quicktoggles';
+@use 'topbar/_messages';
 
-@import 'workspace/_dash';
-@import 'workspace/_workspace';
+@use 'workspace/_dash';
+@use 'workspace/_workspace';

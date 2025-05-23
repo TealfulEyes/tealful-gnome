@@ -1,13 +1,14 @@
+@use '../general/variables';
 /**
  * APPLICATION DASH
  * 
 */
 
 #dash{
-	background-color: $invisible;
-	color: $gold;
+	background-color: variables.$invisible;
+	color: variables.$gold;
 }
 .dash-background{
-	background-color: $blurple-highlight;
+	background-color: variables.$blurple;
 	border-radius: 14px;
 }

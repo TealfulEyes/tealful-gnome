@@ -1,3 +1,4 @@
+@use 'variables';
 stage{
 	font:{
 		family: JetBrains Mono, Arial;
@@ -8,12 +9,12 @@ stage{
 	border-radius: 10px;
 	background:{
 		image: url("toggle10-on.svg");
-		color: $blurple-highlight;
+		color: variables.$blurple-highlight;
 	}
 	&:checked{
 		background:{
 			image: url("toggle10-off.svg");
-			color: $gold;
+			color: variables.$gold;
 		}
 	}
 }
